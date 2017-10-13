@@ -1,0 +1,651 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Sistema
+</name>
+</assembly>
+<members>
+<member name="T:Sistema.DataSetSistema">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.GastosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.CallesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.MaterialesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.PozosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.ServiciosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.EmpleadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.TarifasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.SituacionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.ProveedoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.ActividadPozoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.CuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECUENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECALLESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEMATERIALESCONEXISTENCIADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEEMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEGASTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTETARIFASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPOZOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECUENTASPORCALLESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTESERVICIOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECOMPRASPERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECGASTOSPERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTESALIDASPERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPAGOSPERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEACTIVIDADPOZOPERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECLIENTESMOROSOSPERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPAGOSPORCLIENTEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTESERVICIOSATENDIDOSPERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.GastosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.CallesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.MaterialesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.PozosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.ServiciosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.EmpleadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.TarifasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.SituacionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.ProveedoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.ActividadPozoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.CuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECUENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECALLESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEMATERIALESCONEXISTENCIARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEEMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEGASTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTETARIFASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPOZOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECUENTASPORCALLESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTESERVICIOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECOMPRASPERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECGASTOSPERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTESALIDASPERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPAGOSPERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEACTIVIDADPOZOPERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECLIENTESMOROSOSPERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPAGOSPORCLIENTERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTESERVICIOSATENDIDOSPERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.GastosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.CallesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.MaterialesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.PozosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.ServiciosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.EmpleadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.TarifasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.SituacionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.ProveedoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.ActividadPozoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.CuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECUENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECALLESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEMATERIALESCONEXISTENCIARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEEMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEGASTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTETARIFASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPOZOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECUENTASPORCALLESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTESERVICIOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECOMPRASPERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECGASTOSPERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTESALIDASPERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPAGOSPERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEACTIVIDADPOZOPERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTECLIENTESMOROSOSPERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTEPAGOSPORCLIENTERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistema.REPORTESERVICIOSATENDIDOSPERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.GastosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.CallesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.MaterialesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.PozosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.ServiciosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.EmpleadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.TarifasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.SituacionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.ProveedoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.ActividadPozoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.CuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTECUENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTECALLESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTEMATERIALESCONEXISTENCIATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTEEMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTEGASTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTETARIFASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTEPOZOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTECUENTASPORCALLESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTEPROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTESERVICIOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTECOMPRASPERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTECGASTOSPERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTESALIDASPERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTEPAGOSPERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTEACTIVIDADPOZOPERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTECLIENTESMOROSOSPERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTEPAGOSPORCLIENTETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.REPORTESERVICIOSATENDIDOSPERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Sistema.DataSetSistemaTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sistema.DataSetSistema,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Sistema.DataSetSistemaTableAdapters.TableAdapterManager.UpdateInsertedRows(Sistema.DataSetSistema,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Sistema.DataSetSistemaTableAdapters.TableAdapterManager.UpdateDeletedRows(Sistema.DataSetSistema,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Sistema.DataSetSistemaTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Sistema.DataSetSistemaTableAdapters.TableAdapterManager.UpdateAll(Sistema.DataSetSistema)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Sistema.DataSetSistemaTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Sistema.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Sistema.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Sistema.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>
